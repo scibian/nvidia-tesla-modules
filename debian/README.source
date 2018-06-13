@@ -1,0 +1,35 @@
+Version number
+==============
+
+The version number consists of three parts:
+  (driver upstream version)+(kernel upstream version)+(debian revision)
+e.g. 340.32+3.14+1
+
+The kernel version must match the one used by the src:linux package in the
+*names* of the binary packages (i.e. (at the time of writing this)
+3.2.0 for wheezy (not 3.2.60) or 3.14 for jessie (not 3.14.15)).
+
+The kernel ABI version is set in debian/rules.defs, not encoded in the
+version.
+
+Be sure to reset the "debian revision" part to 1 whenever changing either of
+the upstream versions. There should be rarely a need for a debian revision
+other than "1" nowadays (except for backports which get the usual 1~bpo70+1).
+
+
+Generating debian/control
+=========================
+
+debian/control is a generated file - do not edit this directly!
+It is built from debian/control.source and debian/control.flavor using
+settings from debian/rules.defs and of course the version numbers.
+
+To regenerate debian/control after changing any of the input files or
+any of the version numbers use 'debian/rules clean'.
+
+
+Uploading
+=========
+
+When uploading this package, both amd64 and i386 binaries must be uploaded.
+The autobuilder network cannot build them due to a non-free Build-Depends.

@@ -1,0 +1,18 @@
+
+Package: #MODULE#-#FLAVOR#
+Architecture: #ARCH#
+Depends: ${misc:Depends}, #MODULE#-#KERNEL#-#FLAVOR# (>= #META_MINDEP_VERSION#)
+Conflicts: #MODULE#-2.6-#FLAVOR#
+Replaces: #MODULE#-2.6-#FLAVOR#
+Description: #DESC_NAME# kernel module for Linux (#FLAVOR# flavor)
+ This is a metapackage that will depend on the latest version of the
+ #DESC_NAME# kernel module for the Linux kernel series (#FLAVOR# flavor).
+ Install this package to automatically install the latest #DESC_NAME# module
+ when new versions of the kernel are released.
+
+Package: #MODULE#-#KERNEL#-#FLAVOR#
+Architecture: #ARCH#
+Depends: ${misc:Depends}
+Description: #DESC_NAME# binary kernel module (#FLAVOR# flavor)
+ This is a dummy control entry (#FLAVOR# flavor).
+ The description in the final package will come from its control.template.
