@@ -26,13 +26,3 @@ Description: NVIDIA kernel module for Linux 2.6 (dummy package)
  modules available is allowed to enter testing.
  .
  It is not needed to install this package on any machine.
-
-Package: nvidia-kernel-486
-Section: non-free/oldlibs
-Priority: extra
-Architecture: i386
-Depends: ${misc:Depends}, nvidia-kernel-586
-Conflicts: nvidia-kernel-2.6-486
-Replaces: nvidia-kernel-2.6-486
-Description: NVIDIA kernel module for Linux (dummy package)
- This is a dummy transitional package.  It can be safely removed.
