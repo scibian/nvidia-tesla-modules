@@ -1,3 +1,10 @@
+nvidia-tesla-modules (396.26+4.9.0+0sci9+tl396u1) scibian9+tl396; urgency=medium
+
+  * Rebuild for scibian9+tl396.
+  * Update debian/control for 4.9.0-6 in stretch
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Thu, 14 Jun 2018 11:53:52 +0200
+
 nvidia-tesla-modules (396.26+3.16.0+0sci8+tl396u1) scibian8+tl396; urgency=medium
 
   * Initial release
