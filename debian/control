@@ -7,7 +7,7 @@ Uploaders:
  Andreas Beckmann <anbe@debian.org>,
  Vincent Cheng <vcheng@debian.org>
 Build-Depends: debhelper (>= 9),
- linux-headers-4.9.0-6-amd64 [amd64],
+ linux-headers-4.9.0-7-amd64 [amd64],
  nvidia-kernel-source (>= 396.26), nvidia-kernel-source (<< 396.26.~),
 Standards-Version: 3.9.6
 Homepage: http://www.nvidia.com/
@@ -29,7 +29,7 @@ Description: NVIDIA kernel module for Linux 2.6 (dummy package)
 
 Package: nvidia-kernel-amd64
 Architecture: amd64
-Depends: ${misc:Depends}, nvidia-kernel-4.9.0-6-amd64 (>= 396.26)
+Depends: ${misc:Depends}, nvidia-kernel-4.9.0-7-amd64 (>= 396.26)
 Conflicts: nvidia-kernel-2.6-amd64
 Replaces: nvidia-kernel-2.6-amd64
 Description: NVIDIA kernel module for Linux (amd64 flavor)
@@ -38,7 +38,7 @@ Description: NVIDIA kernel module for Linux (amd64 flavor)
  Install this package to automatically install the latest NVIDIA module
  when new versions of the kernel are released.
 
-Package: nvidia-kernel-4.9.0-6-amd64
+Package: nvidia-kernel-4.9.0-7-amd64
 Architecture: amd64
 Depends: ${misc:Depends}
 Description: NVIDIA binary kernel module (amd64 flavor)
