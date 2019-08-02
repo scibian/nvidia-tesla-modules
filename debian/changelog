@@ -1,3 +1,9 @@
+nvidia-tesla-modules (418.56+4.9.0+0sci9+tl418u2) scibian9+tl418; urgency=medium
+
+  * debian: Bump to kernel 4.9.0-9
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Fri, 02 Aug 2019 10:53:57 +0200
+
 nvidia-tesla-modules (418.56+4.9.0+0sci9+tl418u1) scibian9+tl418; urgency=medium
 
   * Rebuild for scibian9+tl418
