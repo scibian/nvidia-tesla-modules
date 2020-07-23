@@ -1,6 +1,6 @@
 SOURCE_MIN_REV		 =
 NVIDIA_LEGACY		 =
-KERNEL_ABI		 = 9
+KERNEL_ABI		 = 12
 
 DEFAULT			 = yes
 RT			 = no
