@@ -1,3 +1,9 @@
+nvidia-tesla-modules (418.56+4.9.0+0sci9+tl418u3) scibian9+tl418; urgency=medium
+
+  * debian: Bump to kernel 4.9.0-12
+
+ -- Tàzio Gennuso <tazio-externe.gennuso@edf.fr>  Thu, 25 Jul 2020 15:18:28 +0200
+
 nvidia-tesla-modules (418.56+4.9.0+0sci9+tl418u2) scibian9+tl418; urgency=medium
 
   * debian: Bump to kernel 4.9.0-9
