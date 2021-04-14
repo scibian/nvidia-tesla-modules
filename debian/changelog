@@ -1,3 +1,9 @@
+nvidia-tesla-modules (418.56+4.9.0+0sci9+tl418u4) scibian9+tl418; urgency=medium
+
+  * Bump to kernel 4.9.0-14
+
+ -- Romaric Kanyamibwa <romaric-externe.kanyamibwa@edf.fr>  Wed, 14 Apr 2021 13:26:24 +0200
+
 nvidia-tesla-modules (418.56+4.9.0+0sci9+tl418u3) scibian9+tl418; urgency=medium
 
   * debian: Bump to kernel 4.9.0-12
