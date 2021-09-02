@@ -1,3 +1,9 @@
+nvidia-tesla-modules (418.56+4.9.0+0sci9+tl418u5) scibian9+tl418; urgency=medium
+
+  * Bump to kernel ABI 16
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Thu, 02 Sep 2021 11:35:45 +0200
+
 nvidia-tesla-modules (418.56+4.9.0+0sci9+tl418u4) scibian9+tl418; urgency=medium
 
   * Bump to kernel 4.9.0-14
