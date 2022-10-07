@@ -1,3 +1,9 @@
+nvidia-tesla-modules (470.103.01+4.9.0-0sci9+tl470u2) scibian9+tl470; urgency=medium
+
+  * Bump to kernel ABI 19
+
+ -- Kwame Amedodji <kwame-externe.amedodji@edf.fr>  Fri, 07 Oct 2022 09:15:24 +0200
+
 nvidia-tesla-modules (470.103.01+4.9.0-0sci9+tl470u1) scibian9+tl470; urgency=medium
 
   * Bump to kernel ABI 18
